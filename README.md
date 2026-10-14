@@ -2,6 +2,21 @@
 
 A desktop application (PySide6) for scanning CapCut Desktop drafts on Windows, extracting subtitles (ASR auto-captions & manual text), previewing them in real time, and exporting to SRT / VTT / TXT / CSV / JSON.
 
+<p align="center">
+  <a href="https://github.com/okkysatria/CapCut-Subtitle-Extract/releases/latest/download/CapCut-Subtitle-Extract.exe">
+    <img src="https://img.shields.io/badge/⬇️%20Download%20EXE-v1.0.0-blue?style=for-the-badge&logo=windows" alt="Download EXE"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/okkysatria/CapCut-Subtitle-Extract/releases/latest">
+    <img src="https://img.shields.io/github/v/release/okkysatria/CapCut-Subtitle-Extract?style=for-the-badge&label=Latest%20Release" alt="Latest Release"/>
+  </a>
+</p>
+
+> **No installation needed.** Just download and run — Python is not required.
+> Windows 10 / 11 (64-bit) only.
+
+---
+
 ## Structure
 ```
 main.py                 Application entry point
@@ -13,7 +28,7 @@ workers/export_worker.py Background QThread exporter
 styles/theme.py         Modern dark QSS theme
 ```
 
-## Running the Application
+## Running from Source
 ```bash
 pip install PySide6
 python main.py
